@@ -1,0 +1,672 @@
+ID,title,authors
+['1'],PEP Purpose and Guidelines,"Barry Warsaw, Jeremy Hylton, David Goodger, Alyssa Coghlan"
+['2'],Procedure for Adding New Modules,"Brett Cannon, Martijn Faassen"
+['3'],Guidelines for Handling Bug Reports,Jeremy Hylton
+['4'],Deprecation of Standard Modules,"Brett Cannon, Martin von Löwis"
+['5'],Guidelines for Language Evolution,Paul Prescod
+['6'],Bug Fix Releases,"Aahz, Anthony Baxter"
+['7'],Style Guide for C Code,"Guido van Rossum, Barry Warsaw"
+['8'],Style Guide for Python Code,"Guido van Rossum, Barry Warsaw, Alyssa Coghlan"
+['9'],Sample Plaintext PEP Template,Barry Warsaw
+['10'],Voting Guidelines,Barry Warsaw
+['11'],CPython platform support,"Martin von Löwis, Brett Cannon"
+['12'],Sample reStructuredText PEP Template,"David Goodger, Barry Warsaw, Brett Cannon"
+['13'],Python Language Governance,The Python core team and community
+['20'],The Zen of Python,Tim Peters
+['42'],Feature Requests,Jeremy Hylton
+['100'],Python Unicode Integration,Marc-André Lemburg
+['101'],Doing Python Releases 101,"Barry Warsaw, Guido van Rossum"
+['102'],Doing Python Micro Releases,"Anthony Baxter, Barry Warsaw, Guido van Rossum"
+['103'],Collecting information about git,Oleg Broytman
+['160'],Python 1.6 Release Schedule,"Fred L. Drake, Jr."
+['200'],Python 2.0 Release Schedule,Jeremy Hylton
+['201'],Lockstep Iteration,Barry Warsaw
+['202'],List Comprehensions,Barry Warsaw
+['203'],Augmented Assignments,Thomas Wouters
+['204'],Range Literals,Thomas Wouters
+['205'],Weak References,"Fred L. Drake, Jr."
+['206'],Python Advanced Library,A.M. Kuchling
+['207'],Rich Comparisons,"Guido van Rossum, David Ascher"
+['208'],Reworking the Coercion Model,"Neil Schemenauer, Marc-André Lemburg"
+['209'],Multi-dimensional Arrays,"Paul Barrett, Travis Oliphant"
+['210'],Decoupling the Interpreter Loop,David Ascher
+['211'],Adding A New Outer Product Operator,Greg Wilson
+['212'],Loop Counter Iteration,Peter Schneider-Kamp
+['213'],Attribute Access Handlers,Paul Prescod
+['214'],Extended Print Statement,Barry Warsaw
+['215'],String Interpolation,Ka-Ping Yee
+['216'],Docstring Format,Moshe Zadka
+['217'],Display Hook for Interactive Use,Moshe Zadka
+['218'],Adding a Built-In Set Object Type,"Greg Wilson, Raymond Hettinger"
+['219'],Stackless Python,Gordon McMillan
+['220'],"Coroutines, Generators, Continuations",Gordon McMillan
+['221'],Import As,Thomas Wouters
+['222'],Web Library Enhancements,A.M. Kuchling
+['223'],Change the Meaning of ``\x`` Escapes,Tim Peters
+['224'],Attribute Docstrings,Marc-André Lemburg
+['225'],Elementwise/Objectwise Operators,"Huaiyu Zhu, Gregory Lielens"
+['226'],Python 2.1 Release Schedule,Jeremy Hylton
+['227'],Statically Nested Scopes,Jeremy Hylton
+['228'],Reworking Python's Numeric Model,"Moshe Zadka, Guido van Rossum"
+['229'],Using Distutils to Build Python,A.M. Kuchling
+['230'],Warning Framework,Guido van Rossum
+['231'],__findattr__(),Barry Warsaw
+['232'],Function Attributes,Barry Warsaw
+['233'],Python Online Help,Paul Prescod
+['234'],Iterators,"Ka-Ping Yee, Guido van Rossum"
+['235'],Import on Case-Insensitive Platforms,Tim Peters
+['236'],Back to the __future__,Tim Peters
+['237'],Unifying Long Integers and Integers,"Moshe Zadka, Guido van Rossum"
+['238'],Changing the Division Operator,"Moshe Zadka, Guido van Rossum"
+['239'],Adding a Rational Type to Python,"Christopher A. Craig, Moshe Zadka"
+['240'],Adding a Rational Literal to Python,"Christopher A. Craig, Moshe Zadka"
+['241'],Metadata for Python Software Packages,A.M. Kuchling
+['242'],Numeric Kinds,Paul F. Dubois
+['243'],Module Repository Upload Mechanism,Sean Reifschneider
+['244'],The ``directive`` statement,Martin von Löwis
+['245'],Python Interface Syntax,Michel Pelletier
+['246'],Object Adaptation,"Alex Martelli, Clark C. Evans"
+['247'],API for Cryptographic Hash Functions,A.M. Kuchling
+['248'],Python Database API Specification v1.0,"Greg Stein, Marc-André Lemburg"
+['249'],Python Database API Specification v2.0,Marc-André Lemburg
+['250'],Using site-packages on Windows,Paul Moore
+['251'],Python 2.2 Release Schedule,"Barry Warsaw, Guido van Rossum"
+['252'],Making Types Look More Like Classes,Guido van Rossum
+['253'],Subtyping Built-in Types,Guido van Rossum
+['254'],Making Classes Look More Like Types,Guido van Rossum
+['255'],Simple Generators,"Neil Schemenauer, Tim Peters, Magnus Lie Hetland"
+['256'],Docstring Processing System Framework,David Goodger
+['257'],Docstring Conventions,"David Goodger, Guido van Rossum"
+['258'],Docutils Design Specification,David Goodger
+['259'],Omit printing newline after newline,Guido van Rossum
+['260'],Simplify xrange(),Guido van Rossum
+['261'],"Support for ""wide"" Unicode characters",Paul Prescod
+['262'],A Database of Installed Python Packages,A.M. Kuchling
+['263'],Defining Python Source Code Encodings,"Marc-André Lemburg, Martin von Löwis"
+['264'],Future statements in simulated shells,Michael Hudson
+['265'],Sorting Dictionaries by Value,Grant Griffin
+['266'],Optimizing Global Variable/Attribute Access,Skip Montanaro
+['267'],Optimized Access to Module Namespaces,Jeremy Hylton
+['268'],Extended HTTP functionality and WebDAV,Greg Stein
+['269'],Pgen Module for Python,Jonathan Riehl
+['270'],uniq method for list objects,Jason Petrone
+['271'],Prefixing sys.path by command line option,Frédéric B. Giacometti
+['272'],API for Block Encryption Algorithms v1.0,A.M. Kuchling
+['273'],Import Modules from Zip Archives,James C. Ahlstrom
+['274'],Dict Comprehensions,Barry Warsaw
+['275'],Switching on Multiple Values,Marc-André Lemburg
+['276'],Simple Iterator for ints,Jim Althoff
+['277'],Unicode file name support for Windows NT,Neil Hodgson
+['278'],Universal Newline Support,Jack Jansen
+['279'],The enumerate() built-in function,Raymond Hettinger
+['280'],Optimizing access to globals,Guido van Rossum
+['281'],Loop Counter Iteration with range and xrange,Magnus Lie Hetland
+['282'],A Logging System,"Vinay Sajip, Trent Mick"
+['283'],Python 2.3 Release Schedule,Guido van Rossum
+['284'],Integer for-loops,"David Eppstein, Gregory Ewing"
+['285'],Adding a bool type,Guido van Rossum
+['286'],Enhanced Argument Tuples,Martin von Löwis
+['287'],reStructuredText Docstring Format,David Goodger
+['288'],Generators Attributes and Exceptions,Raymond Hettinger
+['289'],Generator Expressions,Raymond Hettinger
+['290'],Code Migration and Modernization,Raymond Hettinger
+['291'],Backward Compatibility for the Python 2 Standard Library,Neal Norwitz
+['292'],Simpler String Substitutions,Barry Warsaw
+['293'],Codec Error Handling Callbacks,Walter Dörwald
+['294'],Type Names in the types Module,Oren Tirosh
+['295'],Interpretation of multiline string constants,Stepan Koltsov
+['296'],Adding a bytes Object Type,Scott Gilbert
+['297'],Support for System Upgrades,Marc-André Lemburg
+['298'],The Locked Buffer Interface,Thomas Heller
+['299'],Special __main__() function in modules,Jeff Epler
+['301'],Package Index and Metadata for Distutils,Richard Jones
+['302'],New Import Hooks,"Just van Rossum, Paul Moore"
+['303'],Extend divmod() for Multiple Divisors,Thomas Bellman
+['304'],Controlling Generation of Bytecode Files,Skip Montanaro
+['305'],CSV File API,"Kevin Altis, Dave Cole, Andrew McNamara, Skip Montanaro, Cliff Wells"
+['306'],How to Change Python's Grammar,"Michael Hudson, Jack Diederich, Alyssa Coghlan, Benjamin Peterson"
+['307'],Extensions to the pickle protocol,"Guido van Rossum, Tim Peters"
+['308'],Conditional Expressions,"Guido van Rossum, Raymond Hettinger"
+['309'],Partial Function Application,Peter Harris
+['310'],Reliable Acquisition/Release Pairs,"Michael Hudson, Paul Moore"
+['311'],Simplified Global Interpreter Lock Acquisition for Extensions,Mark Hammond
+['312'],Simple Implicit Lambda,"Roman Suzi, Alex Martelli"
+['313'],Adding Roman Numeral Literals to Python,Mike Meyer
+['314'],Metadata for Python Software Packages 1.1,"A.M. Kuchling, Richard Jones"
+['315'],Enhanced While Loop,"Raymond Hettinger, W Isaac Carroll"
+['316'],Programming by Contract for Python,Terence Way
+['317'],Eliminate Implicit Exception Instantiation,Steven Taschuk
+['318'],Decorators for Functions and Methods,"Kevin D. Smith, Jim J. Jewett, Skip Montanaro, Anthony Baxter"
+['319'],Python Synchronize/Asynchronize Block,Michel Pelletier
+['320'],Python 2.4 Release Schedule,"Barry Warsaw, Raymond Hettinger, Anthony Baxter"
+['321'],Date/Time Parsing and Formatting,A.M. Kuchling
+['322'],Reverse Iteration,Raymond Hettinger
+['323'],Copyable Iterators,Alex Martelli
+['324'],subprocess - New process module,Peter Astrand
+['325'],Resource-Release Support for Generators,Samuele Pedroni
+['326'],A Case for Top and Bottom Values,"Josiah Carlson, Terry Reedy"
+['327'],Decimal Data Type,Facundo Batista
+['328'],Imports: Multi-Line and Absolute/Relative,Aahz
+['329'],Treating Builtins as Constants in the Standard Library,Raymond Hettinger
+['330'],Python Bytecode Verification,Michel Pelletier
+['331'],Locale-Independent Float/String Conversions,Christian R. Reis
+['332'],Byte vectors and String/Unicode Unification,Skip Montanaro
+['333'],Python Web Server Gateway Interface v1.0,Phillip J. Eby
+['334'],Simple Coroutines via SuspendIteration,Clark C. Evans
+['335'],Overloadable Boolean Operators,Gregory Ewing
+['336'],Make None Callable,Andrew McClelland
+['337'],Logging Usage in the Standard Library,Michael P. Dubner
+['338'],Executing modules as scripts,Alyssa Coghlan
+['339'],Design of the CPython Compiler,Brett Cannon
+['340'],Anonymous Block Statements,Guido van Rossum
+['341'],Unifying try-except and try-finally,Georg Brandl
+['342'],Coroutines via Enhanced Generators,"Guido van Rossum, Phillip J. Eby"
+['343'],"The ""with"" Statement","Guido van Rossum, Alyssa Coghlan"
+['344'],Exception Chaining and Embedded Tracebacks,Ka-Ping Yee
+['345'],Metadata for Python Software Packages 1.2,Richard Jones
+['346'],"User Defined (""``with``"") Statements",Alyssa Coghlan
+['347'],Migrating the Python CVS to Subversion,Martin von Löwis
+['348'],Exception Reorganization for Python 3.0,Brett Cannon
+['349'],Allow str() to return unicode strings,Neil Schemenauer
+['350'],Codetags,Micah Elliott
+['351'],The freeze protocol,Barry Warsaw
+['352'],Required Superclass for Exceptions,"Brett Cannon, Guido van Rossum"
+['353'],Using ssize_t as the index type,Martin von Löwis
+['354'],Enumerations in Python,Ben Finney
+['355'],Path - Object oriented filesystem paths,Björn Lindqvist
+['356'],Python 2.5 Release Schedule,"Neal Norwitz, Guido van Rossum, Anthony Baxter"
+['357'],Allowing Any Object to be Used for Slicing,Travis Oliphant
+['358'],"The ""bytes"" Object","Neil Schemenauer, Guido van Rossum"
+['359'],"The ""make"" Statement",Steven Bethard
+['360'],Externally Maintained Packages,Brett Cannon
+['361'],Python 2.6 and 3.0 Release Schedule,"Neal Norwitz, Barry Warsaw"
+['362'],Function Signature Object,"Brett Cannon, Jiwon Seo, Yury Selivanov, Larry Hastings"
+['363'],Syntax For Dynamic Attribute Access,Ben North
+['364'],Transitioning to the Py3K Standard Library,Barry Warsaw
+['365'],Adding the pkg_resources module,Phillip J. Eby
+['366'],Main module explicit relative imports,Alyssa Coghlan
+['367'],New Super,"Calvin Spealman, Tim Delaney"
+['368'],Standard image protocol and class,Lino Mastrodomenico
+['369'],Post import hooks,Christian Heimes
+['370'],Per user site-packages directory,Christian Heimes
+['371'],Addition of the multiprocessing package to the standard library,"Jesse Noller, Richard Oudkerk"
+['372'],Adding an ordered dictionary to collections,"Armin Ronacher, Raymond Hettinger"
+['373'],Python 2.7 Release Schedule,Benjamin Peterson
+['374'],Choosing a distributed VCS for the Python project,"Brett Cannon, Stephen J. Turnbull, Alexandre Vassalotti, Barry Warsaw, Dirkjan Ochtman"
+['375'],Python 3.1 Release Schedule,Benjamin Peterson
+['376'],Database of Installed Python Distributions,Tarek Ziadé
+['377'],Allow __enter__() methods to skip the statement body,Alyssa Coghlan
+['378'],Format Specifier for Thousands Separator,Raymond Hettinger
+['379'],Adding an Assignment Expression,Jervis Whitley
+['380'],Syntax for Delegating to a Subgenerator,Gregory Ewing
+['381'],Mirroring infrastructure for PyPI,"Tarek Ziadé, Martin von Löwis"
+['382'],Namespace Packages,Martin von Löwis
+['383'],Non-decodable Bytes in System Character Interfaces,Martin von Löwis
+['384'],Defining a Stable ABI,Martin von Löwis
+['385'],Migrating from Subversion to Mercurial,"Dirkjan Ochtman, Antoine Pitrou, Georg Brandl"
+['386'],Changing the version comparison module in Distutils,Tarek Ziadé
+['387'],Backwards Compatibility Policy,Benjamin Peterson
+['389'],argparse - New Command Line Parsing Module,Steven Bethard
+['390'],Static metadata for Distutils,Tarek Ziadé
+['391'],Dictionary-Based Configuration For Logging,Vinay Sajip
+['392'],Python 3.2 Release Schedule,Georg Brandl
+['393'],Flexible String Representation,Martin von Löwis
+['394'],"The ""python"" Command on Unix-Like Systems","Kerrick Staley, Alyssa Coghlan, Barry Warsaw, Petr Viktorin, Miro Hrončok, Carol Willing"
+['395'],Qualified Names for Modules,Alyssa Coghlan
+['396'],Module Version Numbers,Barry Warsaw
+['397'],Python launcher for Windows,"Mark Hammond, Martin von Löwis"
+['398'],Python 3.3 Release Schedule,Georg Brandl
+['399'],Pure Python/C Accelerator Module Compatibility Requirements,Brett Cannon
+['400'],Deprecate codecs.StreamReader and codecs.StreamWriter,Victor Stinner
+['401'],BDFL Retirement,"Barry Warsaw, Brett Cannon"
+['402'],Simplified Package Layout and Partitioning,Phillip J. Eby
+['403'],"General purpose decorator clause (aka ""@in"" clause)",Alyssa Coghlan
+['404'],Python 2.8 Un-release Schedule,Barry Warsaw
+['405'],Python Virtual Environments,Carl Meyer
+['406'],Improved Encapsulation of Import State,"Alyssa Coghlan, Greg Slodkowicz"
+['407'],New release cycle and introducing long-term support versions,"Antoine Pitrou, Georg Brandl, Barry Warsaw"
+['408'],Standard library __preview__ package,"Alyssa Coghlan, Eli Bendersky"
+['409'],Suppressing exception context,Ethan Furman
+['410'],Use decimal.Decimal type for timestamps,Victor Stinner
+['411'],Provisional packages in the Python standard library,"Alyssa Coghlan, Eli Bendersky"
+['412'],Key-Sharing Dictionary,Mark Shannon
+['413'],Faster evolution of the Python Standard Library,Alyssa Coghlan
+['414'],Explicit Unicode Literal for Python 3.3,"Armin Ronacher, Alyssa Coghlan"
+['415'],Implement context suppression with exception attributes,Benjamin Peterson
+['416'],Add a frozendict builtin type,Victor Stinner
+['417'],Including mock in the Standard Library,Michael Foord
+['418'],"Add monotonic time, performance counter, and process time functions","Cameron Simpson, Jim J. Jewett, Stephen J. Turnbull, Victor Stinner"
+['419'],Protecting cleanup statements from interruptions,Paul Colomiets
+['420'],Implicit Namespace Packages,Eric V. Smith
+['421'],Adding sys.implementation,Eric Snow
+['422'],Simpler customisation of class creation,"Alyssa Coghlan, Daniel Urban"
+['423'],Naming conventions and recipes related to packaging,Benoit Bryon
+['424'],A method for exposing a length hint,Alex Gaynor
+['425'],Compatibility Tags for Built Distributions,Daniel Holth
+['426'],Metadata for Python Software Packages 2.0,"Alyssa Coghlan, Daniel Holth, Donald Stufft"
+['427'],The Wheel Binary Package Format 1.0,Daniel Holth
+['428'],The pathlib module -- object-oriented filesystem paths,Antoine Pitrou
+['429'],Python 3.4 Release Schedule,Larry Hastings
+['430'],Migrating to Python 3 as the default online documentation,Alyssa Coghlan
+['431'],Time zone support improvements,Lennart Regebro
+['432'],Restructuring the CPython startup sequence,"Alyssa Coghlan, Victor Stinner, Eric Snow"
+['433'],Easier suppression of file descriptor inheritance,Victor Stinner
+['434'],IDLE Enhancement Exception for All Branches,"Todd Rovito, Terry Reedy"
+['435'],Adding an Enum type to the Python standard library,"Barry Warsaw, Eli Bendersky, Ethan Furman"
+['436'],The Argument Clinic DSL,Larry Hastings
+['437'],"A DSL for specifying signatures, annotations and argument converters",Stefan Krah
+['438'],Transitioning to release-file hosting on PyPI,"Holger Krekel, Carl Meyer"
+['439'],Inclusion of implicit pip bootstrap in Python installation,Richard Jones
+['440'],Version Identification and Dependency Specification,"Alyssa Coghlan, Donald Stufft"
+['441'],Improving Python ZIP Application Support,"Daniel Holth, Paul Moore"
+['442'],Safe object finalization,Antoine Pitrou
+['443'],Single-dispatch generic functions,Łukasz Langa
+['444'],Python Web3 Interface,"Chris McDonough, Armin Ronacher"
+['445'],Add new APIs to customize Python memory allocators,Victor Stinner
+['446'],Make newly created file descriptors non-inheritable,Victor Stinner
+['447'],Add __getdescriptor__ method to metaclass,Ronald Oussoren
+['448'],Additional Unpacking Generalizations,Joshua Landau
+['449'],Removal of the PyPI Mirror Auto Discovery and Naming Scheme,Donald Stufft
+['450'],Adding A Statistics Module To The Standard Library,Steven D'Aprano
+['451'],A ModuleSpec Type for the Import System,Eric Snow
+['452'],API for Cryptographic Hash Functions v2.0,"A.M. Kuchling, Christian Heimes"
+['453'],Explicit bootstrapping of pip in Python installations,"Donald Stufft, Alyssa Coghlan"
+['454'],Add a new tracemalloc module to trace Python memory allocations,Victor Stinner
+['455'],Adding a key-transforming dictionary to collections,Antoine Pitrou
+['456'],Secure and interchangeable hash algorithm,Christian Heimes
+['457'],Notation For Positional-Only Parameters,Larry Hastings
+['458'],Secure PyPI downloads with signed repository metadata,"Trishank Karthik Kuppusamy, Vladimir Diaz, Marina Moore, Lukas Puehringer, Joshua Lock, Lois Anne DeLong, Justin Cappos"
+['459'],Standard Metadata Extensions for Python Software Packages,Alyssa Coghlan
+['460'],Add binary interpolation and formatting,Antoine Pitrou
+['461'],Adding % formatting to bytes and bytearray,Ethan Furman
+['462'],Core development workflow automation for CPython,Alyssa Coghlan
+['463'],Exception-catching expressions,Chris Angelico
+['464'],Removal of the PyPI Mirror Authenticity API,Donald Stufft
+['465'],A dedicated infix operator for matrix multiplication,Nathaniel J. Smith
+['466'],Network Security Enhancements for Python 2.7.x,Alyssa Coghlan
+['467'],Minor API improvements for binary sequences,"Alyssa Coghlan, Ethan Furman"
+['468'],Preserving the order of \*\*kwargs in a function.,Eric Snow
+['469'],Migration of dict iteration code to Python 3,Alyssa Coghlan
+['470'],Removing External Hosting Support on PyPI,Donald Stufft
+['471'],os.scandir() function -- a better and faster directory iterator,Ben Hoyt
+['472'],Support for indexing with keyword arguments,"Stefano Borini, Joseph Martinot-Lagarde"
+['473'],Adding structured data to built-in exceptions,Sebastian Kreft
+['474'],Creating forge.python.org,Alyssa Coghlan
+['475'],Retry system calls failing with EINTR,"Charles-François Natali, Victor Stinner"
+['476'],Enabling certificate verification by default for stdlib http clients,Alex Gaynor
+['477'],Backport ensurepip (PEP 453) to Python 2.7,"Donald Stufft, Alyssa Coghlan"
+['478'],Python 3.5 Release Schedule,Larry Hastings
+['479'],Change StopIteration handling inside generators,"Chris Angelico, Guido van Rossum"
+['480'],Surviving a Compromise of PyPI: End-to-end signing of packages,"Trishank Karthik Kuppusamy, Vladimir Diaz, Justin Cappos, Marina Moore"
+['481'],"Migrate CPython to Git, Github, and Phabricator",Donald Stufft
+['482'],Literature Overview for Type Hints,Łukasz Langa
+['483'],The Theory of Type Hints,"Guido van Rossum, Ivan Levkivskyi"
+['484'],Type Hints,"Guido van Rossum, Jukka Lehtosalo, Łukasz Langa"
+['485'],A Function for testing approximate equality,Christopher Barker
+['486'],Make the Python Launcher aware of virtual environments,Paul Moore
+['487'],Simpler customisation of class creation,Martin Teichmann
+['488'],Elimination of PYO files,Brett Cannon
+['489'],Multi-phase extension module initialization,"Petr Viktorin, Stefan Behnel, Alyssa Coghlan"
+['490'],Chain exceptions at C level,Victor Stinner
+['491'],The Wheel Binary Package Format 1.9,Daniel Holth
+['492'],Coroutines with async and await syntax,Yury Selivanov
+['493'],HTTPS verification migration tools for Python 2.7,"Alyssa Coghlan, Robert Kuska, Marc-André Lemburg"
+['494'],Python 3.6 Release Schedule,Ned Deily
+['495'],Local Time Disambiguation,"Alexander Belopolsky, Tim Peters"
+['496'],Environment Markers,James Polley
+['497'],A standard mechanism for backward compatibility,Ed Schofield
+['498'],Literal String Interpolation,Eric V. Smith
+['499'],``python -m foo`` should also bind ``'foo'`` in ``sys.modules``,"Cameron Simpson, Chris Angelico, Joseph Jevnik"
+['500'],A protocol for delegating datetime methods to their tzinfo implementations,"Alexander Belopolsky, Tim Peters"
+['501'],General purpose template literal strings,"Alyssa Coghlan, Nick Humrich"
+['502'],String Interpolation - Extended Discussion,Mike G. Miller
+['503'],Simple Repository API,Donald Stufft
+['504'],Using the System RNG by default,Alyssa Coghlan
+['505'],None-aware operators,"Mark E. Haase, Steve Dower"
+['506'],Adding A Secrets Module To The Standard Library,Steven D'Aprano
+['507'],Migrate CPython to Git and GitLab,Barry Warsaw
+['508'],Dependency specification for Python Software Packages,Robert Collins
+['509'],Add a private version to dict,Victor Stinner
+['510'],Specialize functions with guards,Victor Stinner
+['511'],API for code transformers,Victor Stinner
+['512'],Migrating from hg.python.org to GitHub,Brett Cannon
+['513'],A Platform Tag for Portable Linux Built Distributions,"Robert T. McGibbon, Nathaniel J. Smith"
+['514'],Python registration in the Windows registry,Steve Dower
+['515'],Underscores in Numeric Literals,"Georg Brandl, Serhiy Storchaka"
+['516'],Build system abstraction for pip/conda etc,"Robert Collins, Nathaniel J. Smith"
+['517'],A build-system independent format for source trees,"Nathaniel J. Smith, Thomas Kluyver"
+['518'],Specifying Minimum Build System Requirements for Python Projects,"Brett Cannon, Nathaniel J. Smith, Donald Stufft"
+['519'],Adding a file system path protocol,"Brett Cannon, Koos Zevenhoven"
+['520'],Preserving Class Attribute Definition Order,Eric Snow
+['521'],Managing global context via 'with' blocks in generators and coroutines,Nathaniel J. Smith
+['522'],Allow BlockingIOError in security sensitive APIs,"Alyssa Coghlan, Nathaniel J. Smith"
+['523'],Adding a frame evaluation API to CPython,"Brett Cannon, Dino Viehland"
+['524'],Make os.urandom() blocking on Linux,Victor Stinner
+['525'],Asynchronous Generators,Yury Selivanov
+['526'],Syntax for Variable Annotations,"Ryan Gonzalez, Philip House, Ivan Levkivskyi, Lisa Roach, Guido van Rossum"
+['527'],Removing Un(der)used file types/extensions on PyPI,Donald Stufft
+['528'],Change Windows console encoding to UTF-8,Steve Dower
+['529'],Change Windows filesystem encoding to UTF-8,Steve Dower
+['530'],Asynchronous Comprehensions,Yury Selivanov
+['531'],Existence checking operators,Alyssa Coghlan
+['532'],A circuit breaking protocol and binary operators,"Alyssa Coghlan, Mark E. Haase"
+['533'],Deterministic cleanup for iterators,Nathaniel J. Smith
+['534'],Improved Errors for Missing Standard Library Modules,"Tomáš Orsava, Petr Viktorin, Alyssa Coghlan"
+['535'],Rich comparison chaining,Alyssa Coghlan
+['536'],Final Grammar for Literal String Interpolation,Philipp Angerer
+['537'],Python 3.7 Release Schedule,Ned Deily
+['538'],Coercing the legacy C locale to a UTF-8 based locale,Alyssa Coghlan
+['539'],A New C-API for Thread-Local Storage in CPython,"Erik M. Bray, Masayuki Yamamoto"
+['540'],Add a new UTF-8 Mode,Victor Stinner
+['541'],Package Index Name Retention,Łukasz Langa
+['542'],Dot Notation Assignment In Function Header,Markus Meskanen
+['543'],A Unified TLS API for Python,"Cory Benfield, Christian Heimes"
+['544'],Protocols: Structural subtyping (static duck typing),"Ivan Levkivskyi, Jukka Lehtosalo, Łukasz Langa"
+['545'],Python Documentation Translations,"Julien Palard, Inada Naoki, Victor Stinner"
+['546'],Backport ssl.MemoryBIO and ssl.SSLObject to Python 2.7,"Victor Stinner, Cory Benfield"
+['547'],Running extension modules using the -m option,"Marcel Plch, Petr Viktorin"
+['548'],More Flexible Loop Control,R David Murray
+['549'],Instance Descriptors,Larry Hastings
+['550'],Execution Context,"Yury Selivanov, Elvis Pranskevichus"
+['551'],Security transparency in the Python runtime,Steve Dower
+['552'],Deterministic pycs,Benjamin Peterson
+['553'],Built-in breakpoint(),Barry Warsaw
+['554'],Multiple Interpreters in the Stdlib,Eric Snow
+['555'],Context-local variables (contextvars),Koos Zevenhoven
+['556'],Threaded garbage collection,Antoine Pitrou
+['557'],Data Classes,Eric V. Smith
+['558'],Defined semantics for locals(),Alyssa Coghlan
+['559'],Built-in noop(),Barry Warsaw
+['560'],Core support for typing module and generic types,Ivan Levkivskyi
+['561'],Distributing and Packaging Type Information,Ethan Smith
+['562'],Module __getattr__ and __dir__,Ivan Levkivskyi
+['563'],Postponed Evaluation of Annotations,Łukasz Langa
+['564'],Add new time functions with nanosecond resolution,Victor Stinner
+['565'],Show DeprecationWarning in __main__,Alyssa Coghlan
+['566'],Metadata for Python Software Packages 2.1,Dustin Ingram
+['567'],Context Variables,Yury Selivanov
+['568'],Generator-sensitivity for Context Variables,Nathaniel J. Smith
+['569'],Python 3.8 Release Schedule,Łukasz Langa
+['570'],Python Positional-Only Parameters,"Larry Hastings, Pablo Galindo, Mario Corchero, Eric N. Vander Weele"
+['571'],The manylinux2010 Platform Tag,"Mark  Williams, Geoffrey Thomas, Thomas Kluyver"
+['572'],Assignment Expressions,"Chris Angelico, Tim Peters, Guido van Rossum"
+['573'],Module State Access from C Extension Methods,"Petr Viktorin, Alyssa Coghlan, Eric Snow, Marcel Plch"
+['574'],Pickle protocol 5 with out-of-band data,Antoine Pitrou
+['575'],Unifying function/method classes,Jeroen Demeyer
+['576'],Rationalize Built-in function classes,Mark Shannon
+['577'],Augmented Assignment Expressions,Alyssa Coghlan
+['578'],Python Runtime Audit Hooks,Steve Dower
+['579'],Refactoring C functions and methods,Jeroen Demeyer
+['580'],The C call protocol,Jeroen Demeyer
+['581'],Using GitHub Issues for CPython,Mariatta
+['582'],Python local packages directory,"Kushal Das, Steve Dower, Donald Stufft, Alyssa Coghlan"
+['583'],A Concurrency Memory Model for Python,Jeffrey Yasskin
+['584'],Add Union Operators To dict,"Steven D'Aprano, Brandt Bucher"
+['585'],Type Hinting Generics In Standard Collections,Łukasz Langa
+['586'],Literal Types,"Michael Lee, Ivan Levkivskyi, Jukka Lehtosalo"
+['587'],Python Initialization Configuration,"Victor Stinner, Alyssa Coghlan"
+['588'],GitHub Issues Migration Plan,Mariatta
+['589'],TypedDict: Type Hints for Dictionaries with a Fixed Set of Keys,Jukka Lehtosalo
+['590'],Vectorcall: a fast calling protocol for CPython,"Mark Shannon, Jeroen Demeyer"
+['591'],Adding a final qualifier to typing,"Michael J. Sullivan, Ivan Levkivskyi"
+['592'],"Adding ""Yank"" Support to the Simple API",Donald Stufft
+['593'],Flexible function and variable annotations,"Till Varoquaux, Konstantin Kashin"
+['594'],Removing dead batteries from the standard library,"Christian Heimes, Brett Cannon"
+['595'],Improving bugs.python.org,"Ezio Melotti, Berker Peksag"
+['596'],Python 3.9 Release Schedule,Łukasz Langa
+['597'],Add optional EncodingWarning,Inada Naoki
+['598'],Introducing incremental feature releases,Alyssa Coghlan
+['599'],The manylinux2014 Platform Tag,Dustin Ingram
+['600'],Future 'manylinux' Platform Tags for Portable Linux Built Distributions,"Nathaniel J. Smith, Thomas Kluyver"
+['601'],Forbid return/break/continue breaking out of finally,"Damien George, Batuhan Taskaya"
+['602'],Annual Release Cycle for Python,Łukasz Langa
+['603'],Adding a frozenmap type to collections,Yury Selivanov
+['604'],Allow writing union types as ``X | Y``,"Philippe PRADOS, Maggie Moss"
+['605'],A rolling feature release stream for CPython,"Steve Dower, Alyssa Coghlan"
+['606'],Python Compatibility Version,Victor Stinner
+['607'],Reducing CPython's Feature Delivery Latency,"Łukasz Langa, Steve Dower, Alyssa Coghlan"
+['608'],Coordinated Python release,"Miro Hrončok, Victor Stinner"
+['609'],Python Packaging Authority (PyPA) Governance,"Dustin Ingram, Pradyun Gedam, Sumana Harihareswara"
+['610'],Recording the Direct URL Origin of installed distributions,"Stéphane Bidoul, Chris Jerdonek"
+['611'],The one million limit,Mark Shannon
+['612'],Parameter Specification Variables,Mark Mendoza
+['613'],Explicit Type Aliases,Shannon Zhu
+['614'],Relaxing Grammar Restrictions On Decorators,Brandt Bucher
+['615'],Support for the IANA Time Zone Database in the Standard Library,Paul Ganssle
+['616'],String methods to remove prefixes and suffixes,Dennis Sweeney
+['617'],New PEG parser for CPython,"Guido van Rossum, Pablo Galindo, Lysandros Nikolaou"
+['618'],Add Optional Length-Checking To zip,Brandt Bucher
+['619'],Python 3.10 Release Schedule,Pablo Galindo Salgado
+['620'],Hide implementation details from the C API,Victor Stinner
+['621'],Storing project metadata in pyproject.toml,"Brett Cannon, Dustin Ingram, Paul Ganssle, Pradyun Gedam, Sébastien Eustace, Thomas Kluyver, Tzu-ping Chung"
+['622'],Structural Pattern Matching,"Brandt Bucher, Daniel F Moisset, Tobias Kohn, Ivan Levkivskyi, Guido van Rossum, Talin"
+['623'],Remove wstr from Unicode,Inada Naoki
+['624'],Remove Py_UNICODE encoder APIs,Inada Naoki
+['625'],Filename of a Source Distribution,"Tzu-ping Chung, Paul Moore"
+['626'],Precise line numbers for debugging and other tools.,Mark Shannon
+['627'],Recording installed projects,Petr Viktorin
+['628'],Add ``math.tau``,Alyssa Coghlan
+['629'],Versioning PyPI's Simple API,Donald Stufft
+['630'],Isolating Extension Modules,Petr Viktorin
+['631'],Dependency specification in pyproject.toml based on PEP 508,Ofek Lev
+['632'],Deprecate distutils module,Steve Dower
+['633'],Dependency specification in pyproject.toml using an exploded TOML table,"Laurie Opperman, Arun Babu Neelicattu"
+['634'],Structural Pattern Matching: Specification,"Brandt Bucher, Guido van Rossum"
+['635'],Structural Pattern Matching: Motivation and Rationale,"Tobias Kohn, Guido van Rossum"
+['636'],Structural Pattern Matching: Tutorial,Daniel F Moisset
+['637'],Support for indexing with keyword arguments,Stefano Borini
+['638'],Syntactic Macros,Mark Shannon
+['639'],Improving License Clarity with Better Package Metadata,"Philippe Ombredanne, C.A.M. Gerlach, Karolina Surma"
+['640'],Unused variable syntax,Thomas Wouters
+['641'],Using an underscore in the version portion of Python 3.10 compatibility tags,"Brett Cannon, Steve Dower, Barry Warsaw"
+['642'],Explicit Pattern Syntax for Structural Pattern Matching,Alyssa Coghlan
+['643'],Metadata for Package Source Distributions,Paul Moore
+['644'],Require OpenSSL 1.1.1 or newer,Christian Heimes
+['645'],Allow writing optional types as ``x?``,Maggie Moss
+['646'],Variadic Generics,"Mark Mendoza, Matthew Rahtz, Pradeep Kumar Srinivasan, Vincent Siles"
+['647'],User-Defined Type Guards,Eric Traut
+['648'],Extensible customizations of the interpreter at startup,Mario Corchero
+['649'],Deferred Evaluation Of Annotations Using Descriptors,Larry Hastings
+['650'],Specifying Installer Requirements for Python Projects,"Vikram Jayanthi, Dustin Ingram, Brett Cannon"
+['651'],Robust Stack Overflow Handling,Mark Shannon
+['652'],Maintaining the Stable ABI,Petr Viktorin
+['653'],Precise Semantics for Pattern Matching,Mark Shannon
+['654'],Exception Groups and except*,"Irit Katriel, Yury Selivanov, Guido van Rossum"
+['655'],Marking individual TypedDict items as required or potentially-missing,David Foster
+['656'],Platform Tag for Linux Distributions Using Musl,Tzu-ping Chung
+['657'],Include Fine Grained Error Locations in Tracebacks,"Pablo Galindo, Batuhan Taskaya, Ammar Askar"
+['658'],Serve Distribution Metadata in the Simple Repository API,Tzu-ping Chung
+['659'],Specializing Adaptive Interpreter,Mark Shannon
+['660'],Editable installs for pyproject.toml based builds (wheel based),"Daniel Holth, Stéphane Bidoul"
+['661'],Sentinel Values,Tal Einat
+['662'],Editable installs via virtual wheels,Bernát Gábor
+['663'],"Standardizing Enum str(), repr(), and format() behaviors",Ethan Furman
+['664'],Python 3.11 Release Schedule,Pablo Galindo Salgado
+['665'],A file format to list Python dependencies for reproducibility of an application,"Brett Cannon, Pradyun Gedam, Tzu-ping Chung"
+['666'],Reject Foolish Indentation,Laura Creighton
+['667'],Consistent views of namespaces,"Mark Shannon, Tian Gao"
+['668'],Marking Python base environments as “externally managed”,"Geoffrey Thomas, Matthias Klose, Filipe Laíns, Donald Stufft, Tzu-ping Chung, Stefano Rivera, Elana Hashman, Pradyun Gedam"
+['669'],Low Impact Monitoring for CPython,Mark Shannon
+['670'],Convert macros to functions in the Python C API,"Erlend Egeberg Aasland, Victor Stinner"
+['671'],Syntax for late-bound function argument defaults,Chris Angelico
+['672'],Unicode-related Security Considerations for Python,Petr Viktorin
+['673'],Self Type,"Pradeep Kumar Srinivasan, James Hilton-Balfe"
+['674'],Disallow using macros as l-values,Victor Stinner
+['675'],Arbitrary Literal String Type,"Pradeep Kumar Srinivasan, Graham Bleaney"
+['676'],PEP Infrastructure Process,Adam Turner
+['677'],Callable Type Syntax,"Steven Troxler, Pradeep Kumar Srinivasan"
+['678'],Enriching Exceptions with Notes,Zac Hatfield-Dodds
+['679'],Allow parentheses in assert statements,Pablo Galindo Salgado
+['680'],tomllib: Support for Parsing TOML in the Standard Library,"Taneli Hukkinen, Shantanu Jain"
+['681'],Data Class Transforms,"Erik De Bonte, Eric Traut"
+['682'],Format Specifier for Signed Zero,John Belmonte
+['683'],"Immortal Objects, Using a Fixed Refcount","Eric Snow, Eddie Elizondo"
+['684'],A Per-Interpreter GIL,Eric Snow
+['685'],Comparison of extra names for optional distribution dependencies,Brett Cannon
+['686'],Make UTF-8 mode default,Inada Naoki
+['687'],Isolating modules in the standard library,"Erlend Egeberg Aasland, Petr Viktorin"
+['688'],Making the buffer protocol accessible in Python,Jelle Zijlstra
+['689'],Unstable C API tier,Petr Viktorin
+['690'],Lazy Imports,"Germán Méndez Bravo, Carl Meyer"
+['691'],JSON-based Simple API for Python Package Indexes,"Donald Stufft, Pradyun Gedam, Cooper Lees, Dustin Ingram"
+['692'],Using TypedDict for more precise \*\*kwargs typing,Franek Magiera
+['693'],Python 3.12 Release Schedule,Thomas Wouters
+['694'],Upload 2.0 API for Python Package Indexes,"Barry Warsaw, Donald Stufft"
+['695'],Type Parameter Syntax,Eric Traut
+['696'],Type Defaults for Type Parameters,James Hilton-Balfe
+['697'],Limited C API for Extending Opaque Types,Petr Viktorin
+['698'],Override Decorator for Static Typing,"Steven Troxler, Joshua Xu, Shannon Zhu"
+['699'],Remove private dict version field added in PEP 509,Ken Jin
+['700'],Additional Fields for the Simple API for Package Indexes,Paul Moore
+['701'],Syntactic formalization of f-strings,"Pablo Galindo, Batuhan Taskaya, Lysandros Nikolaou, Marta Gómez Macías"
+['702'],Marking deprecations using the type system,Jelle Zijlstra
+['703'],Making the Global Interpreter Lock Optional in CPython,Sam Gross
+['704'],Require virtual environments by default for package installers,Pradyun Gedam
+['705'],TypedDict: Read-only items,Alice Purcell
+['706'],Filter for tarfile.extractall,Petr Viktorin
+['707'],A simplified signature for __exit__ and __aexit__,Irit Katriel
+['708'],Extending the Repository API to Mitigate Dependency Confusion Attacks,Donald Stufft
+['709'],Inlined comprehensions,Carl Meyer
+['710'],Recording the provenance of installed packages,Fridolín Pokorný
+['711'],PyBI: a standard format for distributing Python Binaries,Nathaniel J. Smith
+['712'],"Adding a ""converter"" parameter to dataclasses.field",Joshua Cannon
+['713'],Callable Modules,Amethyst Reese
+['714'],Rename dist-info-metadata in the Simple API,Donald Stufft
+['715'],Disabling bdist_egg distribution uploads on PyPI,William Woodruff
+['718'],Subscriptable functions,James Hilton-Balfe
+['719'],Python 3.13 Release Schedule,Thomas Wouters
+['720'],Cross-compiling Python packages,Filipe Laíns
+['721'],Using tarfile.data_filter for source distribution extraction,Petr Viktorin
+['722'],Dependency specification for single-file scripts,Paul Moore
+['723'],Inline script metadata,Ofek Lev
+['724'],Stricter Type Guards,"Rich Chiodo, Eric Traut, Erik De Bonte"
+['725'],Specifying external dependencies in pyproject.toml,"Pradyun Gedam, Ralf Gommers"
+['726'],Module ``__setattr__`` and ``__delattr__``,Sergey B Kirpichev
+['727'],Documentation in Annotated Metadata,Sebastián Ramírez
+['728'],TypedDict with Typed Extra Items,Zixuan James Li
+['729'],Typing governance process,"Jelle Zijlstra, Shantanu Jain"
+['730'],Adding iOS as a supported platform,Russell Keith-Magee
+['731'],C API Working Group Charter,"Guido van Rossum, Petr Viktorin, Victor Stinner, Steve Dower, Irit Katriel"
+['732'],The Python Documentation Editorial Board,Joanna Jablonski
+['733'],An Evaluation of Python's Public C API,"Erlend Egeberg Aasland, Domenico Andreoli, Stefan Behnel, Carl Friedrich Bolz-Tereick, Simon Cross, Steve Dower, Tim Felgentreff, David Hewitt, Shantanu Jain, Wenzel Jakob, Irit Katriel, Marc-Andre Lemburg, Donghee Na, Karl Nelson, Ronald Oussoren, Antoine Pitrou, Neil Schemenauer, Mark Shannon, Stepan Sindelar, Gregory P. Smith, Eric Snow, Victor Stinner, Guido van Rossum, Petr Viktorin, Carol Willing, William Woodruff, David Woods, Jelle Zijlstra"
+['734'],Multiple Interpreters in the Stdlib,Eric Snow
+['735'],Dependency Groups in pyproject.toml,Stephen Rosen
+['736'],Shorthand syntax for keyword arguments at invocation,"Joshua Bambrick, Chris Angelico"
+['737'],C API to format a type fully qualified name,Victor Stinner
+['738'],Adding Android as a supported platform,Malcolm Smith
+['739'],Static description file for build details of Python installations,Filipe Laíns
+['740'],Index support for digital attestations,"William Woodruff, Facundo Tuesca, Dustin Ingram"
+['741'],Python Configuration C API,Victor Stinner
+['742'],Narrowing types with TypeIs,Jelle Zijlstra
+['743'],Add Py_COMPAT_API_VERSION to the Python C API,"Victor Stinner, Petr Viktorin"
+['744'],JIT Compilation,"Brandt Bucher, Savannah Ostrowski"
+['745'],Python 3.14 Release Schedule,Hugo van Kemenade
+['746'],Type checking Annotated metadata,Adrian Garcia Badaracco
+['747'],Annotating Type Forms,"David Foster, Eric Traut"
+['748'],A Unified TLS API for Python,"Joop van de Pol, William Woodruff"
+['749'],Implementing PEP 649,Jelle Zijlstra
+['750'],Template Strings,"Jim Baker, Guido van Rossum, Paul Everitt, Koudai Aono, Lysandros Nikolaou, Dave Peck"
+['751'],A file format to record Python dependencies for installation reproducibility,Brett Cannon
+['752'],Implicit namespaces for package repositories,Ofek Lev
+['753'],Uniform project URLs in core metadata,"William Woodruff, Facundo Tuesca"
+['754'],IEEE 754 Floating Point Special Values,Gregory R. Warnes
+['755'],Implicit namespace policy for PyPI,Ofek Lev
+['756'],Add PyUnicode_Export() and PyUnicode_Import() C functions,Victor Stinner
+['757'],C API to import-export Python integers,"Sergey B Kirpichev, Victor Stinner"
+['758'],Allow ``except`` and ``except*`` expressions without parentheses,"Pablo Galindo, Brett Cannon"
+['759'],External Wheel Hosting,"Barry Warsaw, Ethan Smith"
+['760'],No More Bare Excepts,"Pablo Galindo, Brett Cannon"
+['761'],Deprecating PGP signatures for CPython artifacts,Seth Michael Larson
+['762'],REPL-acing the default REPL,"Pablo Galindo Salgado, Łukasz Langa, Lysandros Nikolaou, Emily Morehouse-Valcarcel"
+['763'],Limiting deletions on PyPI,"William Woodruff, Alexis Challande"
+['765'],Disallow return/break/continue that exit a finally block,"Irit Katriel, Alyssa Coghlan"
+['766'],Explicit Priority Choices Among Multiple Indexes,Michael Sarahan
+['767'],Annotating Read-Only Attributes,Eneg
+['768'],Safe external debugger interface for CPython,"Pablo Galindo Salgado, Matt Wozniski, Ivona Stojanovic"
+['769'],Add a 'default' keyword argument to 'attrgetter' and 'itemgetter',Facundo Batista
+['770'],Improving measurability of Python packages with Software Bill-of-Materials,Seth Larson
+['777'],How to Re-invent the Wheel,Ethan Smith
+['789'],Preventing task-cancellation bugs by limiting yield in async generators,"Zac Hatfield-Dodds, Nathaniel J. Smith"
+['801'],Reserved,Barry Warsaw
+['2026'],Calendar versioning for Python,Hugo van Kemenade
+['3000'],Python 3000,Guido van Rossum
+['3001'],Procedure for reviewing and improving standard library modules,Georg Brandl
+['3002'],Procedure for Backwards-Incompatible Changes,Steven Bethard
+['3003'],Python Language Moratorium,"Brett Cannon, Jesse Noller, Guido van Rossum"
+['3099'],Things that will Not Change in Python 3000,Georg Brandl
+['3100'],Miscellaneous Python 3.0 Plans,Brett Cannon
+['3101'],Advanced String Formatting,Talin
+['3102'],Keyword-Only Arguments,Talin
+['3103'],A Switch/Case Statement,Guido van Rossum
+['3104'],Access to Names in Outer Scopes,Ka-Ping Yee
+['3105'],Make print a function,Georg Brandl
+['3106'],"Revamping dict.keys(), .values() and .items()",Guido van Rossum
+['3107'],Function Annotations,"Collin Winter, Tony Lownds"
+['3108'],Standard Library Reorganization,Brett Cannon
+['3109'],Raising Exceptions in Python 3000,Collin Winter
+['3110'],Catching Exceptions in Python 3000,Collin Winter
+['3111'],Simple input built-in in Python 3000,Andre Roberge
+['3112'],Bytes literals in Python 3000,Jason Orendorff
+['3113'],Removal of Tuple Parameter Unpacking,Brett Cannon
+['3114'],Renaming iterator.next() to iterator.__next__(),Ka-Ping Yee
+['3115'],Metaclasses in Python 3000,Talin
+['3116'],New I/O,"Daniel Stutzbach, Guido van Rossum, Mike Verdone"
+['3117'],Postfix type declarations,Georg Brandl
+['3118'],Revising the buffer protocol,"Travis Oliphant, Carl Banks"
+['3119'],Introducing Abstract Base Classes,"Guido van Rossum, Talin"
+['3120'],Using UTF-8 as the default source encoding,Martin von Löwis
+['3121'],Extension Module Initialization and Finalization,Martin von Löwis
+['3122'],Delineation of the main module,Brett Cannon
+['3123'],Making PyObject_HEAD conform to standard C,Martin von Löwis
+['3124'],"Overloading, Generic Functions, Interfaces, and Adaptation",Phillip J. Eby
+['3125'],Remove Backslash Continuation,Jim J. Jewett
+['3126'],Remove Implicit String Concatenation,"Jim J. Jewett, Raymond Hettinger"
+['3127'],Integer Literal Support and Syntax,Patrick Maupin
+['3128'],BList: A Faster List-like Type,Daniel Stutzbach
+['3129'],Class Decorators,Collin Winter
+['3130'],Access to Current Module/Class/Function,Jim J. Jewett
+['3131'],Supporting Non-ASCII Identifiers,Martin von Löwis
+['3132'],Extended Iterable Unpacking,Georg Brandl
+['3133'],Introducing Roles,Collin Winter
+['3134'],Exception Chaining and Embedded Tracebacks,Ka-Ping Yee
+['3135'],New Super,"Calvin Spealman, Tim Delaney, Lie Ryan"
+['3136'],Labeled break and continue,Matt Chisholm
+['3137'],Immutable Bytes and Mutable Buffer,Guido van Rossum
+['3138'],String representation in Python 3000,Atsuo Ishimoto
+['3139'],"Cleaning out sys and the ""interpreter"" module",Benjamin Peterson
+['3140'],"str(container) should call str(item), not repr(item)","Oleg Broytman, Jim J. Jewett"
+['3141'],A Type Hierarchy for Numbers,Jeffrey Yasskin
+['3142'],"Add a ""while"" clause to generator expressions",Gerald Britton
+['3143'],Standard daemon process library,Ben Finney
+['3144'],IP Address Manipulation Library for the Python Standard Library,Peter Moody
+['3145'],Asynchronous I/O For subprocess.Popen,"Eric Pruitt, Charles R. McCreary, Josiah Carlson"
+['3146'],Merging Unladen Swallow into CPython,"Collin Winter, Jeffrey Yasskin, Reid Kleckner"
+['3147'],PYC Repository Directories,Barry Warsaw
+['3148'],futures - execute computations asynchronously,Brian Quinlan
+['3149'],ABI version tagged .so files,Barry Warsaw
+['3150'],"Statement local namespaces (aka ""given"" clause)",Alyssa Coghlan
+['3151'],Reworking the OS and IO exception hierarchy,Antoine Pitrou
+['3152'],Cofunctions,Gregory Ewing
+['3153'],Asynchronous IO support,Laurens Van Houtven
+['3154'],Pickle protocol version 4,Antoine Pitrou
+['3155'],Qualified name for classes and functions,Antoine Pitrou
+['3156'],"Asynchronous IO Support Rebooted: the ""asyncio"" Module",Guido van Rossum
+['3333'],Python Web Server Gateway Interface v1.0.1,Phillip J. Eby
+['8000'],Python Language Governance Proposal Overview,Barry Warsaw
+['8001'],Python Governance Voting Process,"Brett Cannon, Christian Heimes, Donald Stufft, Eric Snow, Gregory P. Smith, Łukasz Langa, Mariatta, Nathaniel J. Smith, Pablo Galindo Salgado, Raymond Hettinger, Tal Einat, Tim Peters, Zachary Ware"
+['8002'],Open Source Governance Survey,"Barry Warsaw, Łukasz Langa, Antoine Pitrou, Doug Hellmann, Carol Willing"
+['8010'],The Technical Leader Governance Model,Barry Warsaw
+['8011'],Python Governance Model Lead by Trio of Pythonistas,"Mariatta, Barry Warsaw"
+['8012'],The Community Governance Model,Łukasz Langa
+['8013'],The External Council Governance Model,Steve Dower
+['8014'],The Commons Governance Model,Jack Jansen
+['8015'],Organization of the Python community,Victor Stinner
+['8016'],The Steering Council Model,"Nathaniel J. Smith, Donald Stufft"
+['8100'],January 2019 Steering Council election,"Nathaniel J. Smith, Ee Durbin"
+['8101'],2020 Term Steering Council election,"Ewa Jodlowska, Ee Durbin"
+['8102'],2021 Term Steering Council election,"Ewa Jodlowska, Ee Durbin, Joe Carey"
+['8103'],2022 Term Steering Council election,"Ewa Jodlowska, Ee Durbin, Joe Carey"
+['8104'],2023 Term Steering Council election,Ee Durbin
+['8105'],2024 Term Steering Council election,Ee Durbin
+['8106'],2025 Term Steering Council election,Ee Durbin
+['0'],Index of Python Enhancement Proposals (PEPs),The PEP Editors
